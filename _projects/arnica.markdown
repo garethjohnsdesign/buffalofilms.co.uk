@@ -3,7 +3,7 @@ title: Arnica
 date: 2014-09-04 13:35:00 Z
 img: "/uploads/arnica.jpg"
 video: 74343214
-credits:
+credits: 
 excerpt: A young mans love letter to his dead father
 is-featured: true
 ---

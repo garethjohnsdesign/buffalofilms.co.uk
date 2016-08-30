@@ -3,8 +3,9 @@ title: Pianos
 date: 2014-09-04 13:35:00 Z
 img: "/uploads/pianos.jpg"
 video: 122549449
-credits:
-excerpt: A light hearted documentary looking at the members of the public that stop to play the public pianos in St Pancras Station
+credits: 
+excerpt: A light hearted documentary looking at the members of the public that stop
+  to play the public pianos in St Pancras Station
 is-featured: true
 ---
 

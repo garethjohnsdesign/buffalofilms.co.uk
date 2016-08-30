@@ -2,6 +2,9 @@
 title: Buffalo Films
 timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
   projects:
     title: Projects
     output: true
@@ -27,12 +30,13 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-description: Set up by Casting Director Des Hamilton and Lara Manwaring Buffalo Films have produced Behind the Door, Arnica, Budapest and I Feel Fine.
+description: Set up by Casting Director Des Hamilton and Lara Manwaring Buffalo Films
+  have produced Behind the Door, Arnica, Budapest and I Feel Fine.
 company: Buffalo Films
 email: info@buffalofilms.co.uk
 facebook: 
 instagram: 
-twitter:
+twitter: 
 imdb: 
 vimeo: 
 linkedin: 

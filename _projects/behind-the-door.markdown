@@ -3,7 +3,7 @@ title: Behind the Door
 date: 2014-09-04 13:35:00 Z
 img: "/uploads/behind-the-door.jpg"
 video: 74341638
-credits:
+credits: 
 excerpt: Desire for revenge leads to total Obsession
 is-featured: true
 ---
