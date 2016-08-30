@@ -5,7 +5,7 @@ layout: about
 
 ### Profile
 
-Buffalo Films was set up by Casting Director Des Hamilton and Casting Associate Lara Manwaring.
+Buffalo Films was set up by casting directors' Des Hamilton and Casting Associate Lara Manwaring.
 
 Des has worked in casting for over ten years on an eclectic mix of projects, including: ONLY GOD FORGIVES, NYMPHOMANIAC, THIS IS ENGLAND, TYRANNOSAUR, and Channel 4’s TOP BOY, engaging with a broad range of directors such as Nicolas Winding Refn, Yann Demange, Gaspar Noé, Saul Dibb, Andrea Arnold, Lynne Ramsay and Lars Von Trier.
 
