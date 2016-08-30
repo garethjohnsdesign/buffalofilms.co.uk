@@ -236,6 +236,7 @@ footer .detail {
 }
 
 .footer__bottom {
+	transition: $primary-transition;
 	@include breakpoint(xlarge) {
    padding: 2rem;
   	}

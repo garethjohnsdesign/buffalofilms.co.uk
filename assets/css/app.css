@@ -8194,8 +8194,11 @@ footer {
 footer .detail {
   padding-bottom: 1rem; }
 
-@media screen and (min-width: 75em) {
-  .footer__bottom {
-    padding: 2rem; } }
+.footer__bottom {
+  -webkit-transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  @media screen and (min-width: 75em) {
+    .footer__bottom {
+      padding: 2rem; } }
 
 /*# sourceMappingURL=app.css.map */
