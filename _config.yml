@@ -41,8 +41,8 @@ imdb:
 vimeo: 
 linkedin: 
 googleplus: 
-googleanalytics: "UA-83428648-1" 
-verification: "h9Ib-aJ7oHyXNzMfQGsdka-uV5O8JiWFnIR0qjwXhIc"
+googleanalytics: UA-83428648-1
+verification: h9Ib-aJ7oHyXNzMfQGsdka-uV5O8JiWFnIR0qjwXhIc
 logo: "/assets/img/layout/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
