@@ -19,10 +19,12 @@ img {
 	height: auto
 }
 
+/*
 ::selection {
     background: #FFFFFF;
     color: #000000;
 }
+*/
 
 .no-js {
   @include breakpoint(small only) {
@@ -167,7 +169,7 @@ a {
     height:100%;
     top:0; 
     left:0;
-    background:rgba(0,0,0,0.4);
+    background:rgba(0,0,0,0.0);
     opacity:1;
     transition: $primary-transition;
 }
@@ -177,7 +179,6 @@ a {
 }
 
 .excerpt__image img {
-    filter: grayscale(1) contrast(1.05);
     transition: $primary-transition;
 }
 
