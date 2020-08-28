@@ -1,0 +1,42 @@
+{% set bodyClass = 'home' %}
+
+{% if entry.seoTitle | length %}
+{% set seoTitle = entry.seoTitle %}
+{% else %}
+{% set seoTitle = entry.title %}
+{% endif %}
+
+{% if entry.seoDescription | length %}
+{% set seoDescription = entry.seoDescription %}
+{% endif %}
+
+{% extends "default/_layouts/site" %}
+
+{% block navigation %}
+{% include "_includes/global/navigation--home" %}
+{% endblock %}
+
+{% block main %}
+
+<div class="grid-container">
+   <div class="grid-x grid-padding-x padding-top-1 align-center">
+      <div class="small-12 medium-6 cell text-center">
+      <a href="/projects">
+        <h1 class="logo secondary-color">Buffalo</h1>
+        <h3 class="serif-italic primary-color">Thank you!</h1>
+      </a>
+      </div>
+   </div>
+</div>
+
+{% if entry.previewVideo %}
+  <video playsinline autoplay muted loop class="video" poster="">
+    <source src="{{ entry.previewVideo }}" type="video/mp4">
+  </video>
+{% endif %}
+
+{% endblock %}
+
+
+{% block footer %}
+{% endblock %}

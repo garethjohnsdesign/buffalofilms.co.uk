@@ -1,0 +1,20 @@
+<!-- Terms and Privacy -->
+<div class="grid-x grid-padding-x align-center">
+  <div class="shrink cell text-center">
+    <h3 class="serif-italic primary-color">Thank you!</h3>
+  </div>
+</div>
+<!-- End Terms and Privacy -->
+
+<!-- Terms and Privacy -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="shrink cell">
+    <ul class="vertical medium-horizontal menu text-center small text-uppercase letter-spacing--loose">
+     {% if site.phoneNumber %}<li><a href="tel:{{site.phoneNumber}}">{{site.phoneNumber}}</a></li>{% endif %}
+     {% if site.email %}<li class="show-for-medium"><a href="mailto:{{site.email}}">{{site.email}}</a></li>{% endif %}
+     <li class="show-for-medium"><a href="/terms">Terms</a></li>
+     <li class="show-for-medium"><a href="/privacy-policy">Privacy</a></li>
+    </ul>
+  </div>
+</div>
+<!-- End Terms and Privacy -->

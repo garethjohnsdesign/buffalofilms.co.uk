@@ -1,0 +1,35 @@
+{% set bodyClass = 'about' %}
+
+{% if entry.seoTitle | length %}
+{% set seoTitle = entry.seoTitle %}
+{% else %}
+{% set seoTitle = entry.title %}
+{% endif %}
+
+{% if entry.seoDescription | length %}
+{% set seoDescription = entry.seoDescription %}
+{% endif %}
+
+{% extends "_layouts/site" %}
+
+{% block navigation %}
+{% include "_includes/global/navigation--full" %}
+{% endblock %}
+
+
+{% block main %}
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    {% for detail in entry.detail.all() %}
+      <div class="small-12 medium-8 cell detail text-center">
+        <p class="serif-italic h3">{{ detail.header }}</p>
+        {{ detail.copy }}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+{% include "_includes/global/footer" %}
+{% endblock %}
