@@ -1,29 +1,17 @@
 @font-face {
-  font-family: 'Old London';
+  font-family: 'GT Alpina Regular';
   src: 
-  url('../fonts/old-london.woff2') format('woff2'), 
-  url('../fonts/old-london.woff') format('woff'),
-  url('../fonts/old-london.ttf') format('ttf');
+  url('../fonts/gt-alpina-regular.woff2') format('woff2'), 
+  url('../fonts/gt-alpina-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Brush Script';
+  font-family: 'Circular Std Bold';
   src: 
-  url('../fonts/brush-script.woff2') format('woff2'), 
-  url('../fonts/brush-script.woff') format('woff'),
-  url('../fonts/brush-script.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Post Grotesk Regular';
-  src: 
-  url('../fonts/post-grotesk-regular.woff2') format('woff2'), 
-  url('../fonts/post-grotesk-regular.woff') format('woff'),
-  url('../fonts/post-grotesk-regular.ttf') format('ttf');
+  url('../fonts/circular-std-bold.woff2') format('woff2'), 
+  url('../fonts/circular-std-bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

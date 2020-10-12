@@ -56,6 +56,18 @@ window.addEventListener('resize', () => {
 });
 
 
+// 1. Text on Mouse Over
+// ---------------
+
+tippy('[data-tippy-content]', {
+  followCursor: true,
+  plugins: [followCursor],
+  theme: 'custom',
+  allowHTML: true,
+  arrow: false,
+  zIndex: -1,
+})
+
 // 7. Animate on Scroll
 // --------------------
 

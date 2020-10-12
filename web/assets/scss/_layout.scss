@@ -231,6 +231,7 @@ i, cite, em, var, address, dfn {
 
 .logo {
   font-family: $logo;
+  letter-spacing: $letter-spacing--loose;
 }
 
 .sans-light {
@@ -594,22 +595,6 @@ z-index: -1;
   @include opacity(0.5);
 }
 
-.home {
-  position: relative;
-  overflow: hidden;
-}
-
-.home .video {
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
-.home .video {
-  z-index: -1;
+.tippy-box[data-theme~='custom'] {
+  background-color: transparent;
 }
