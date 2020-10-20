@@ -66,9 +66,7 @@
 // ---------
 
 $global-font-size: 100%;
-$global-font-size: 18px;
-// $global-width: rem-calc(1200);
-$global-width: rem-calc(1600);
+$global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
@@ -99,8 +97,7 @@ $foundation-palette: (
 $body-background: $off-white;
 $body-font-color: $black;
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-// $body-font-family: $sans-regular;
-$body-font-family: $serif-display;
+$body-font-family: $sans-regular;
 $body-antialiased: true;
 $global-margin: 1rem;
 // $global-padding: 1rem;
@@ -158,8 +155,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-// $header-font-family: $body-font-family;
-$header-font-family: $serif-display;
+$header-font-family: $body-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -918,11 +914,11 @@ $grid-margin-gutters: (
 );
 */
 $grid-margin-gutters: (
-  small: 48px,
-  medium: 64px,
-  large: 120px,
-  xlarge: 160px,
-  xxlarge: 200px
+  small: 20px,
+  medium: 30px,
+  large: 48px,
+  xlarge: 72px,
+  xxlarge: 96px
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;

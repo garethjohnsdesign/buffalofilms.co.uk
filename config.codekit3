@@ -2316,6 +2316,22 @@
 		"oAP": "/web/assets/favicons/site.webmanifest",
 		"oF": 0
 		},
+	"/web/assets/fonts/brush-script.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/brush-script.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/brush-script.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/brush-script.woff2",
+		"oF": 0
+		},
 	"/web/assets/fonts/circular-std-bold.woff": {
 		"cB": 0,
 		"ft": 8192,

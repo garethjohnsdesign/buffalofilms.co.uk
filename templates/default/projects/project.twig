@@ -30,7 +30,7 @@
 
 
 {% block navigation %}
-{% include "_includes/global/navigation--full" %}
+{% include "_includes/global/navigation" %}
 {% endblock %}
 
 
@@ -55,19 +55,21 @@
 
 {% if entry.video %}
 <div class="grid-container">
-<div class="grid-x grid-padding-x grid-padding-y align-center">
+<div class="grid-x grid-padding-x align-center">
 
-  <div class="small-12 cell text-center">
-    <h3 class="serif-italic">{{entry.title}}</h3>
+  <div class="small-12 cell text-center text-uppercase">
+    <h3>{{entry.title}}</h3>
   </div>
 
   <div class="small-12 cell text-center">
     <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="{{ entry.video }}"></div>
   </div>
 
+{#
   <div class="small-12 cell text-center">
     <a data-open="reveal{{entry.id}}" class="serif-italic h4">Credits</a>
   </div>
+#}
 
 </div>
 </div>

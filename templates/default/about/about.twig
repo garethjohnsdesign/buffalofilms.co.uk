@@ -13,7 +13,7 @@
 {% extends "_layouts/site" %}
 
 {% block navigation %}
-{% include "_includes/global/navigation--full" %}
+{% include "_includes/global/navigation" %}
 {% endblock %}
 
 
@@ -21,8 +21,8 @@
 <div class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     {% for detail in entry.detail.all() %}
-      <div class="small-12 medium-8 cell detail text-center">
-        <p class="serif-italic h3">{{ detail.header }}</p>
+      <div class="small-12 medium-8 cell detail">
+        <p class="text-uppercase letter-spacing--loose">{{ detail.header }}</p>
         {{ detail.copy }}
       </div>
     {% endfor %}

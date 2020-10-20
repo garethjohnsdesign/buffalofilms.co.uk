@@ -17,38 +17,16 @@
 {% endblock %}
 
 {% block main %}
-
-<div class="grid-x grid-padding-x grid-padding-y">
-  <div class="small-12 medium-10 large-10 cell padding-bottom-0">
-    <h3>Founded by BAFTA-winning casting director <a href="https://www.imdb.com/name/nm1060389/" class="underline" target="_blank" rel="noreferrer noopener" data-tippy-content="<img src='https://buffalo-films.imgix.net/des.jpg?fit=clip&q=80&w=400&h=400' width='200' height='200'>">Des Hamilton</a> and producer <a href="https://www.imdb.com/name/nm7334271/?ref_=fn_al_nm_1" class="underline" target="_blank" rel="noreferrer noopener" data-tippy-content="<img src='https://buffalo-films.imgix.net/tilly.jpg?fit=clip&q=80&w=400&h=400' width='200' height='200'>">Tilly Standing</a>, Buffalo Films is a production company that celebrates 🎉, supports and enables women — regardless of experience — to make their first feature film 🙌. </h3>
-    <h3>Des Hamilton is renowned within the industry for taking risks when it comes to casting, often combining professional talent with those who have had no previous acting experience whatsoever, including BAFTA winning actors 👀 <a href="https://www.imdb.com/name/nm1077357/" class="underline" target="_blank"rel="noreferrer noopener" data-tippy-content="<img src='https://buffalo-films.imgix.net/kathleen.jpg?fit=clip&q=80&w=400&h=400' width='200' height='200'>">Kathleen McDermott</a>, <a href="https://www.imdb.com/name/nm2129938/" class="underline" target="_blank"rel="noreferrer noopener" data-tippy-content="<img src='https://buffalo-films.imgix.net/turgoose.jpg?fit=clip&q=80&w=400&h=400' width='200' height='200'>">Thomas Turgoose</a>, <a href="https://www.imdb.com/name/nm7596255/" class="underline" target="_blank"rel="noreferrer noopener" data-tippy-content="<img src='https://buffalo-films.imgix.net/tom-sweet.jpg?fit=clip&q=80&w=400&h=400' width='200' height='200'>">Tom Sweet</a> and <a href="Shone Romulus" class="underline" target="_blank"rel="noreferrer noopener" data-tippy-content="<img src='https://buffalo-films.imgix.net/shone.jpg?fit=clip&q=80&w=400&h=400' width='200' height='200'>">Shone Romulus</a>.</h3>
-    <h3>We believe this philosophy should be applied to other areas of the industry, and in particular focus on the underrepresented voices belonging to women ✊. We aim to achieve this by creating a space where stories — told by new talent — will be supported and developed with guidance from more established collaborators. Our plan is to create micro-budget, high quality debut features; five women, five films 🏹. </h3>
-    <h3>In doing this we hope to create mobility and parity in an industry, which to many, can seem impenetrable ✌.</h3>
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-8 cell text-center">
+    {{entry.copy}}
+    </div>
   </div>
 </div>
-
-<div class="grid-x grid-padding-x grid-padding-y">
-  <div class="small-12 medium-3 cell padding-right-0">
-    <a href="mailto:info@buffalofilms.co.uk" class="underline" data-tippy-content="<img src='https://media.giphy.com/media/xUPGcMFEIgIkVsptQs/giphy.gif' width='200' height='200'>">
-    <div>1A Fournier St, Spitalfields</div>
-    <div>London E1 6QE</div>
-    </a>
-  </div>
-  <div class="small-12 medium-3 cell">
-    <div><a href="mailto:info@buffalofilms.co.uk" data-tippy-content="<img src='https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif' width='200' height='200'>">info@buffalofilms.co.uk</a></div>
-    <div><a href="mailto:press@buffalofilms.co.uk" data-tippy-content="<img src='https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif' width='200' height='200'>">press@buffalofilms.co.uk</a></div>
-  </div>
-  <div class="small-12 medium-3 cell">
-    <div><a href="mailto:info@buffalofilms.co.uk" data-tippy-content="<img src='https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif' width='200' height='200'>">Instagram</a></div>
-    <div><a href="mailto:press@buffalofilms.co.uk" data-tippy-content="<img src='https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif' width='200' height='200'>">Twitter</a></div>
-  </div>
-</div>
-
-
-
-
 {% endblock %}
 
 
 {% block footer %}
+{% include "_includes/global/footer" %}
 {% endblock %}
